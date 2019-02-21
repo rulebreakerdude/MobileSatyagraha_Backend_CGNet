@@ -2,6 +2,10 @@ import MySQLdb
 import json
 from datetime import datetime
 
+
+#local password for mysql passwordMYSQL123
+
+
 class database_flaskr:
 
 	#db initialization and connection
@@ -10,7 +14,7 @@ class database_flaskr:
 		  host="127.0.0.1",
 		  port=3306,
 		  user="root",
-		  passwd="passwordMYSQL123"
+		  passwd="Wmtp00lr!"
 		  )
 		self.c = self.mydb.cursor()
 		self.c.execute('USE audiwikiswara;')
@@ -20,7 +24,7 @@ class database_flaskr:
 	
 	def fetchAll(self):
 		db_response=self.c.execute(
-			"SELECT id, message_input, user, user, status, tags, posted, title, audio_length FROM app_problem_list WHERE status = 3 AND tags LIKE \'%PROBLEM%\' ORDER BY posted DESC LIMIT 3;")
+			"SELECT id, message_input, user, user, status, tags, posted, title, audio_length FROM lb_postings WHERE status = 3 AND tags LIKE \'%PROBLEM%\' ORDER BY posted DESC LIMIT 3;")
 		db_response=self.c.fetchall()
 		db_parse=[{"problem_id": str(x[0]),
 					"problem_text": x[1].decode("utf-8"), 

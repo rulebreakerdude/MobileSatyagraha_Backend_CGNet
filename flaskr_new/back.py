@@ -80,4 +80,4 @@ def adoptProblem(username,problem_id):
 	
 	
 if __name__=="__main__":
-	applicationlication.run(host="0.0.0.0")
+	application.run()

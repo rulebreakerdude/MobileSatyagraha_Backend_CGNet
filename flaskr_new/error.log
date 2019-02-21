@@ -1,0 +1,83 @@
+[Tue Feb 05 19:32:33.996782 2019] [:info] [pid 11225] [client 150.129.238.203:27729] mod_wsgi (pid=11225, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:32:33.997026 2019] [:error] [pid 11225] [client 150.129.238.203:27729] mod_wsgi (pid=11225): Target WSGI script '/var/www/flaskr/back_wsgi.py' cannot be loaded as Python module.
+[Tue Feb 05 19:32:33.997034 2019] [:error] [pid 11225] [client 150.129.238.203:27729] mod_wsgi (pid=11225): Exception occurred processing WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:32:33.997043 2019] [:error] [pid 11225] [client 150.129.238.203:27729] Traceback (most recent call last):
+[Tue Feb 05 19:32:33.997052 2019] [:error] [pid 11225] [client 150.129.238.203:27729]   File "/var/www/flaskr/back_wsgi.py", line 1, in <module>
+[Tue Feb 05 19:32:33.997091 2019] [:error] [pid 11225] [client 150.129.238.203:27729]     from back import application
+[Tue Feb 05 19:32:33.997106 2019] [:error] [pid 11225] [client 150.129.238.203:27729] ImportError: No module named back
+[Tue Feb 05 19:32:37.575056 2019] [:info] [pid 11230] [client 150.129.238.203:27728] mod_wsgi (pid=11230, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:32:37.575337 2019] [:error] [pid 11230] [client 150.129.238.203:27728] mod_wsgi (pid=11230): Target WSGI script '/var/www/flaskr/back_wsgi.py' cannot be loaded as Python module.
+[Tue Feb 05 19:32:37.575348 2019] [:error] [pid 11230] [client 150.129.238.203:27728] mod_wsgi (pid=11230): Exception occurred processing WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:32:37.575358 2019] [:error] [pid 11230] [client 150.129.238.203:27728] Traceback (most recent call last):
+[Tue Feb 05 19:32:37.575369 2019] [:error] [pid 11230] [client 150.129.238.203:27728]   File "/var/www/flaskr/back_wsgi.py", line 1, in <module>
+[Tue Feb 05 19:32:37.575412 2019] [:error] [pid 11230] [client 150.129.238.203:27728]     from back import application
+[Tue Feb 05 19:32:37.575423 2019] [:error] [pid 11230] [client 150.129.238.203:27728] ImportError: No module named back
+[Tue Feb 05 19:33:25.163412 2019] [reqtimeout:info] [pid 11266] [client 150.129.238.203:27730] AH01382: Request header read timeout
+[Tue Feb 05 19:34:47.055440 2019] [:error] [pid 11249] [client 47.247.228.150:62156] script '/var/www/html/podcast-bultoo.php' not found or unable to stat
+[Tue Feb 05 19:34:47.341143 2019] [core:info] [pid 11345] [client 49.35.120.236:56699] AH00128: File does not exist: /var/www/html/favicon.ico
+[Tue Feb 05 19:34:47.353202 2019] [core:info] [pid 11266] [client 47.247.228.150:38835] AH00128: File does not exist: /var/www/html/favicon.ico
+[Tue Feb 05 19:35:46.416944 2019] [:error] [pid 11266] [client 117.228.167.193:50161] script '/var/www/html/podcast-bultoo.php' not found or unable to stat
+[Tue Feb 05 19:35:46.996302 2019] [core:info] [pid 11227] [client 117.228.167.193:49718] AH00128: File does not exist: /var/www/html/favicon.ico
+[Tue Feb 05 19:35:59.972073 2019] [:error] [pid 11230] [client 47.247.35.3:36808] script '/var/www/html/podcast-bultoo.php' not found or unable to stat
+[Tue Feb 05 19:36:00.229747 2019] [core:info] [pid 11272] [client 47.247.35.3:57284] AH00128: File does not exist: /var/www/html/favicon.ico
+[Tue Feb 05 19:36:06.546277 2019] [core:info] [pid 11227] [client 47.8.70.210:39366] AH00128: File does not exist: /var/www/html/favicon.ico
+[Tue Feb 05 19:36:33.679010 2019] [core:info] [pid 11225] [client 182.183.181.76:52897] AH00128: File does not exist: /var/www/html/favicon.ico, referer: http://cgnetswara.org/recognition.html
+[Tue Feb 05 19:37:04.485876 2019] [:info] [pid 11648] [client 150.129.238.203:27768] mod_wsgi (pid=11648, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:37:12.559659 2019] [:info] [pid 11652] [client 150.129.238.203:27767] mod_wsgi (pid=11652, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:37:16.544919 2019] [core:info] [pid 11740] [client 157.47.185.248:42713] AH00128: File does not exist: /var/www/html/audio/31702.mp3, referer: http://www.cgnetswara.org/index.php?id=31702
+[Tue Feb 05 19:37:17.095731 2019] [core:info] [pid 11749] [client 157.47.185.248:42721] AH00128: File does not exist: /var/www/html/audio/31702.mp3
+[Tue Feb 05 19:37:23.723947 2019] [:info] [pid 11753] [client 150.129.238.203:27771] mod_wsgi (pid=11753, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:37:23.834981 2019] [:error] [pid 11753] [client 150.129.238.203:27771] [2019-02-05 19:37:23,824] ERROR in app: Exception on /plist [GET]
+[Tue Feb 05 19:37:23.834997 2019] [:error] [pid 11753] [client 150.129.238.203:27771] Traceback (most recent call last):
+[Tue Feb 05 19:37:23.835000 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+[Tue Feb 05 19:37:23.835002 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     response = self.full_dispatch_request()
+[Tue Feb 05 19:37:23.835004 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+[Tue Feb 05 19:37:23.835007 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     rv = self.handle_user_exception(e)
+[Tue Feb 05 19:37:23.835009 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+[Tue Feb 05 19:37:23.835011 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     reraise(exc_type, exc_value, tb)
+[Tue Feb 05 19:37:23.835013 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+[Tue Feb 05 19:37:23.835015 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     rv = self.dispatch_request()
+[Tue Feb 05 19:37:23.835017 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+[Tue Feb 05 19:37:23.835019 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     return self.view_functions[rule.endpoint](**req.view_args)
+[Tue Feb 05 19:37:23.835021 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/var/www/flaskr/back.py", line 26, in plist
+[Tue Feb 05 19:37:23.835023 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     return str(mydb.fetchAll())
+[Tue Feb 05 19:37:23.835025 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/var/www/flaskr/db_repo.py", line 23, in fetchAll
+[Tue Feb 05 19:37:23.835029 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     "SELECT id, message_input, user, user, status, tags, posted, title, audio_length FROM app_problem_list WHERE status = 3 AND tags LIKE \\'%PROBLEM%\\' ORDER BY posted DESC LIMIT 3;")
+[Tue Feb 05 19:37:23.835032 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib64/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+[Tue Feb 05 19:37:23.835034 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     self.errorhandler(self, exc, value)
+[Tue Feb 05 19:37:23.835036 2019] [:error] [pid 11753] [client 150.129.238.203:27771]   File "/usr/lib64/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Tue Feb 05 19:37:23.835038 2019] [:error] [pid 11753] [client 150.129.238.203:27771]     raise errorclass, errorvalue
+[Tue Feb 05 19:37:23.835040 2019] [:error] [pid 11753] [client 150.129.238.203:27771] ProgrammingError: (1146, "Table 'audiwikiswara.app_problem_list' doesn't exist")
+[Tue Feb 05 19:37:42.934246 2019] [:error] [pid 11757] [client 117.228.212.101:25124] script '/var/www/html/podcast-bultoo.php' not found or unable to stat
+[Tue Feb 05 19:37:56.983264 2019] [core:info] [pid 11740] [client 117.228.212.101:23632] AH00128: File does not exist: /var/www/html/favicon.ico
+[Tue Feb 05 19:38:15.289133 2019] [reqtimeout:info] [pid 11753] [client 150.129.238.203:27770] AH01382: Request header read timeout
+[Tue Feb 05 19:40:28.372683 2019] [:info] [pid 11650] [client 150.129.238.203:27779] mod_wsgi (pid=11650, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:40:28.479539 2019] [:error] [pid 11650] [client 150.129.238.203:27779] mod_wsgi (pid=11650): Target WSGI script '/var/www/flaskr/back_wsgi.py' cannot be loaded as Python module.
+[Tue Feb 05 19:40:28.479559 2019] [:error] [pid 11650] [client 150.129.238.203:27779] mod_wsgi (pid=11650): Exception occurred processing WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:40:28.479581 2019] [:error] [pid 11650] [client 150.129.238.203:27779] Traceback (most recent call last):
+[Tue Feb 05 19:40:28.479606 2019] [:error] [pid 11650] [client 150.129.238.203:27779]   File "/var/www/flaskr/back_wsgi.py", line 4, in <module>
+[Tue Feb 05 19:40:28.479656 2019] [:error] [pid 11650] [client 150.129.238.203:27779]     from back import application
+[Tue Feb 05 19:40:28.479663 2019] [:error] [pid 11650] [client 150.129.238.203:27779]   File "/var/www/flaskr/back.py", line 9, in <module>
+[Tue Feb 05 19:40:28.479701 2019] [:error] [pid 11650] [client 150.129.238.203:27779]     mydb=database_flaskr()
+[Tue Feb 05 19:40:28.479708 2019] [:error] [pid 11650] [client 150.129.238.203:27779]   File "/var/www/flaskr/db_repo.py", line 13, in __init__
+[Tue Feb 05 19:40:28.479768 2019] [:error] [pid 11650] [client 150.129.238.203:27779]     passwd="passwordMYSQL123"
+[Tue Feb 05 19:40:28.479775 2019] [:error] [pid 11650] [client 150.129.238.203:27779]   File "/usr/lib64/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+[Tue Feb 05 19:40:28.479814 2019] [:error] [pid 11650] [client 150.129.238.203:27779]     return Connection(*args, **kwargs)
+[Tue Feb 05 19:40:28.479820 2019] [:error] [pid 11650] [client 150.129.238.203:27779]   File "/usr/lib64/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+[Tue Feb 05 19:40:28.479889 2019] [:error] [pid 11650] [client 150.129.238.203:27779]     super(Connection, self).__init__(*args, **kwargs2)
+[Tue Feb 05 19:40:28.479905 2019] [:error] [pid 11650] [client 150.129.238.203:27779] OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+[Tue Feb 05 19:40:32.559446 2019] [:info] [pid 11854] [client 150.129.238.203:27780] mod_wsgi (pid=11854, process='', application='cgnetswara.org|/back_wsgi'): Loading WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:40:32.656326 2019] [:error] [pid 11854] [client 150.129.238.203:27780] mod_wsgi (pid=11854): Target WSGI script '/var/www/flaskr/back_wsgi.py' cannot be loaded as Python module.
+[Tue Feb 05 19:40:32.656360 2019] [:error] [pid 11854] [client 150.129.238.203:27780] mod_wsgi (pid=11854): Exception occurred processing WSGI script '/var/www/flaskr/back_wsgi.py'.
+[Tue Feb 05 19:40:32.656384 2019] [:error] [pid 11854] [client 150.129.238.203:27780] Traceback (most recent call last):
+[Tue Feb 05 19:40:32.656398 2019] [:error] [pid 11854] [client 150.129.238.203:27780]   File "/var/www/flaskr/back_wsgi.py", line 4, in <module>
+[Tue Feb 05 19:40:32.656449 2019] [:error] [pid 11854] [client 150.129.238.203:27780]     from back import application
+[Tue Feb 05 19:40:32.656456 2019] [:error] [pid 11854] [client 150.129.238.203:27780]   File "/var/www/flaskr/back.py", line 9, in <module>
+[Tue Feb 05 19:40:32.656498 2019] [:error] [pid 11854] [client 150.129.238.203:27780]     mydb=database_flaskr()
+[Tue Feb 05 19:40:32.656505 2019] [:error] [pid 11854] [client 150.129.238.203:27780]   File "/var/www/flaskr/db_repo.py", line 13, in __init__
+[Tue Feb 05 19:40:32.656571 2019] [:error] [pid 11854] [client 150.129.238.203:27780]     passwd="passwordMYSQL123"
+[Tue Feb 05 19:40:32.656588 2019] [:error] [pid 11854] [client 150.129.238.203:27780]   File "/usr/lib64/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+[Tue Feb 05 19:40:32.656634 2019] [:error] [pid 11854] [client 150.129.238.203:27780]     return Connection(*args, **kwargs)
+[Tue Feb 05 19:40:32.656646 2019] [:error] [pid 11854] [client 150.129.238.203:27780]   File "/usr/lib64/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+[Tue Feb 05 19:40:32.656722 2019] [:error] [pid 11854] [client 150.129.238.203:27780]     super(Connection, self).__init__(*args, **kwargs2)
+[Tue Feb 05 19:40:32.656739 2019] [:error] [pid 11854] [client 150.129.238.203:27780] OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
