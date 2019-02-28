@@ -20,7 +20,7 @@ echo 'Calling on ' . $channel . ' channel: ' . $number . 'Via IMIMobile Solution
 echo '<br>IMI messages start.<br>';
 $url = "http://api-openhouse.imimobile.com/1/obd/thirdpartycall/callSessions";
 //X-www-form-urlencoded field to be sent in the POST body.
-$rawdata="address=!address!&callflow_id=!menu!&externalHeaders=x-imi-ivrs-v1:First_Story.wav;x-imi-ivrs-v2:Impact_Story.wav;";
+$rawdata="address=!address!&callflow_id=!menu!&externalHeaders=x-imi-ivrs-v1:s0.wav;x-imi-ivrs-v2:s1.wav;x-imi-ivrs-v3:s2.wav;x-imi-ivrs-v4:s3.wav;x-imi-ivrs-v5:s4.wav;x-imi-ivrs-i1:i0.wav;x-imi-ivrs-i2:i1.wav;x-imi-ivrs-i3:i2.wav;x-imi-ivrs-i4:i3.wav;x-imi-ivrs-i5:i4.wav;";
 /*
 Replace the following parameters:
 address
