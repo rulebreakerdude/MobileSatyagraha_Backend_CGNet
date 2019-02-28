@@ -33,12 +33,11 @@ for row in db_response1:
 column_names=column_names[0:len(column_names)-1]+" "
 
 
-
-sql_command="SELECT max(id) FROM app_problem_list_backup;"
-c1.execute(sql_command)
-db_response1=c1.fetchall()
-max_id = db_response1[0][0]
+max_id = 117715
 print max_id
+sql_command="delete from app_problem_list_backup_2 where id > \'"+str(max_id)+"\';"
+c1.execute(sql_command)
+mydb1.commit()
 
 sql_command="SELECT * FROM lb_postings WHERE id > \'"+str(max_id)+"\' order by id;"
 c2.execute(sql_command)
@@ -48,13 +47,11 @@ print len(db_response1)
 column_values=""
 #db_response1=[list(x) for x in db_response1]
 for row in db_response1:
-	print row
 	ampersand_s="("
 	for i in range(0,num_columns-1):
 		ampersand_s+="%s,"
 	ampersand_s+="%s)"
-	sql_command="INSERT INTO app_problem_list_backup ("+column_names+") VALUES "+ampersand_s+";"
-	print sql_command
+	sql_command="INSERT INTO app_problem_list_backup_2 ("+column_names+") VALUES "+ampersand_s+";"
 	c1.execute(sql_command,row)
 	mydb1.commit()
 
