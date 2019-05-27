@@ -27,7 +27,7 @@ address
 menu(the call flow id created in the OPENHOUSE website)
 */
 $address=$number;
-$menu="6300";
+$menu="6297";
 $rawdata=str_replace("!address!","$address" ,$rawdata);
 $rawdata=str_replace("!menu!","$menu" ,$rawdata);
 //Curl variable to store headers and X-www-form-urlencoded field.
@@ -41,12 +41,6 @@ $response = curl_exec($ch);
 curl_close($ch);
 echo $response;
 echo '<br>IMI messages end <br>';
-
-$ch2 = curl_init();
-curl_setopt($ch2, CURLOPT_URL, "http://flask-aws-dev.ap-south-1.elasticbeanstalk.com/CGSwaraRecordNumber/$address");
-curl_setopt($ch2, CURLOPT_HEADER, 0);
-curl_exec($ch2);
-curl_close($ch2);
 //IMI functionality ends
 //********************************************************************************************
 ?>
