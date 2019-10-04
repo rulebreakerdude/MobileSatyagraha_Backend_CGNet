@@ -33,7 +33,7 @@ for row in db_response1:
 column_names=column_names[0:len(column_names)-1]+" "
 
 
-max_id = 117715
+max_id = 140000
 print max_id
 sql_command="delete from app_problem_list_backup_2 where id > \'"+str(max_id)+"\';"
 c1.execute(sql_command)
